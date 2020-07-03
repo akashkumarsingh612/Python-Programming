@@ -3,21 +3,21 @@ and you have limited attempts :
 
 Source_Code ->
 
-#Program : Guess the Number
+'''Program : Guess the Number'''
 num = 15
 print("You have 8 attempts so let's guess the Correct Number !")
 attempts = 8
-for i in range(8):
+for i in range(attempts):
     no_of_attmepts_left = attempts
     print("No. of attempts left ->", attempts)
     i = int(input("Guess the Number : "))
     if i == num:
-        print("Congrats! You Guess the Correct no.")
+        print("Congrats! You Guess the Correct Number, in ",(9-attempts), "attempt")
         break
     elif i < num:
-        print(i, "is greater than the Correct no. Try Again!")
-    else :
         print(i, "is lesser than the Correct no. Try Again!")
+    else :
+        print(i, "is greater than the Correct no. Try Again!")
     if no_of_attmepts_left == 1:
         print("No more attempts left! if you want to try again then rerun the Program :)")
     attempts = attempts - 1
