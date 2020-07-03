@@ -1,6 +1,7 @@
-## Guess The Number
+## Guess The Number Program in PYTHON
 In this Program, you have to guess the number which is assigned in the Program ->
 and you have limited attempts : 
+
 
 ### Source_Code ->
 
@@ -29,5 +30,7 @@ for i in range(8):
     if no_of_attmepts_left == 1:
         print("No more attempts left! if you want to try again then rerun the Program :)")
     attempts = attempts - 1
-    
-[https://learntocode404.blogspot.com]
+
+
+# Code Written by CodinGuy aka Akash
+#[https://learntocode404.blogspot.com]
