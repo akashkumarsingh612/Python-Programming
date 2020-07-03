@@ -24,9 +24,9 @@ for i in range(8):
         print("Congrats! You Guess the Correct no.")
         break
     elif i < num:
-        print(i, "is greater than the Correct no. Try Again!")
-    else :
         print(i, "is lesser than the Correct no. Try Again!")
+    else :
+        print(i, "is greater than the Correct no. Try Again!")
     if no_of_attmepts_left == 1:
         print("No more attempts left! if you want to try again then rerun the Program :)")
     attempts = attempts - 1
