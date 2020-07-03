@@ -1,6 +1,6 @@
 ## Guess The Number Program in PYTHON
-In this Program, you have to guess the number which is assigned in the Program ->
-and you have limited attempts : 
+In this Program, you have to guess the number which is assigned in the Program 
+and you'll have limited attempts : 
 
 
 ### Source_Code ->
@@ -32,5 +32,6 @@ for i in range(8):
     attempts = attempts - 1
 
 
-# Code Written by CodinGuy aka Akash
-#[https://learntocode404.blogspot.com]
+
+# Code Written by CodinGuy aka AKASH
+# Website : learntocode404.blogspot.com
